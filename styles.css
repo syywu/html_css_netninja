@@ -25,4 +25,9 @@ li{
     /* border-width: 4px;
     border-style: solid;
     border-color: crimson; */
+    border: 4px solid crimson;
+    /* everything can be done with one line */
+    /* the border can be set individually i.e. border left, border bottom
+    border-left: 30px dotted black;
+    */
 }
