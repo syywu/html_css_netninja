@@ -35,6 +35,17 @@ ul{
 li{
     list-style-type: disc; 
     /* these are the pointers of the list */
-    text-shadow: 2px 2px lightgray;
+    text-shadow: 2px 2px #e9e9e9;
     /* gives text a little of depth */
+}
+
+span{
+    /* span, em, anchor tags are inline elemets */
+    display: block;
+    /* this turns it to block element so takes up the whole block */
+}
+
+div{
+    display: inline;
+    /* turns block element into inline */
 }
