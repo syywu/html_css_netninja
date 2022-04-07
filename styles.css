@@ -43,9 +43,16 @@ span{
     /* span, em, anchor tags are inline elemets */
     display: block;
     /* this turns it to block element so takes up the whole block */
+    /* inline elements cannot have margins at the top and bottom, just left and right */
+    /* paddng collapes in a vertial manner- goes on top of each other */
 }
+
 
 div{
     display: inline;
     /* turns block element into inline */
+    /* margin collapse- if 2 block elements are on top of each other then the padding would merge if one is 60px and another 20px then the total padding would be 60. it takes the bigger of the 2 */
 }
+/* display: inline-block; gets the best of both world. can add padding top and bottom to inline elements */
+
+/* default browser style- can override using own code */
