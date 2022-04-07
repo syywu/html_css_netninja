@@ -71,10 +71,10 @@ p.sucess.feedback{
     border: 6px dashed #e9e9e9;
 }
 
-/* ids can be used as CSS hooks */
+/* ids can be used as CSS hooks and can be used for JS*/
 #content{
     background-color: ebebeb;
     padding: 20px;
 }
-/* one constraint is that id can only be used once */
+/* one constraint is that id can only be used once as it is unique */
 
