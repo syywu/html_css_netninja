@@ -56,3 +56,10 @@ div{
 /* display: inline-block; gets the best of both world. can add padding top and bottom to inline elements */
 
 /* default browser style- can override using own code */
+
+/* CSS classes are used as hooks for just a particular element e.g. p instead of all p tags. class starts with . */
+p.error{
+    color: red;
+}
+/* p.error selects only the p tag with the class of error */
+
