@@ -78,8 +78,14 @@ p.sucess.feedback{
 }
 /* one constraint is that id can only be used once as it is unique */
 
-/* descendants selectors- tag children inside a parent element */
+/* descendants selectors- tag children inside a parent element. can get mulitple levels deep. must contains space to access descedant selectors*/
 /* parents are what nesting its children tags */
+/* parent child {
+
+} */
+div p{
+    color: purple;
+}
 
 
 
