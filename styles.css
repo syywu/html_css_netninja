@@ -78,3 +78,8 @@ p.sucess.feedback{
 }
 /* one constraint is that id can only be used once as it is unique */
 
+/* descendants selectors- tag children inside a parent element */
+/* parents are what nesting its children tags */
+
+
+
