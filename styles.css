@@ -88,10 +88,15 @@ div p{
 }
 
 /* attribute selectors */
-/* this looks for every anchor tags with a href attribute */
+/* this looks for every anchor tags with a href attribute. to be specific add website to ot e.g. href="google.com"*/
 a[href]{
-
+    background-color: #424242;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
 }
+/* href*="google" can shorten it. * means icludes this womewhere in the value. href$=".com" means any href that ends with .com */
+/* pdf icon for those that ends with .pdf */
 
 
 
