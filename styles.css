@@ -87,5 +87,11 @@ div p{
     color: purple;
 }
 
+/* attribute selectors */
+/* this looks for every anchor tags with a href attribute */
+a[href]{
+
+}
+
 
 
