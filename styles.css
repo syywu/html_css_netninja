@@ -98,5 +98,9 @@ a[href]{
 /* href*="google" can shorten it. * means icludes this womewhere in the value. href$=".com" means any href that ends with .com */
 /* pdf icon for those that ends with .pdf */
 
+/* cascade mean from top to bottom. Inheritance- elems inherits parent's properties */
+/* not all properties can be inherited such as border, margin, padding etc. usually font, text styles and colours are inherited */
+
+
 
 
