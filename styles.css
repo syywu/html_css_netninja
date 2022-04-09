@@ -109,6 +109,8 @@ p{
     color: red;
 }
 /* red would be the color as it goes from top to bottom so bottom will take precedence */
-
-
+div p{
+    color: blue;
+}
+/* this would take precedence as it's more specific as it has two levels  */
 
