@@ -100,7 +100,15 @@ a[href]{
 
 /* cascade mean from top to bottom. Inheritance- elems inherits parent's properties */
 /* not all properties can be inherited such as border, margin, padding etc. usually font, text styles and colours are inherited */
-
+p{
+    border: inherit; 
+    color: green;
+}
+/* this allows children elements to inherit parent */
+p{
+    color: red;
+}
+/* red would be the color as it goes from top to bottom so bottom will take precedence */
 
 
 
