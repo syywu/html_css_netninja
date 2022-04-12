@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <title>HTML form</title>
+</head>
+<!--link tag links css to html-->
+<link rel="stylesheet" href="styles.css">
+<body>
+
+<h1>HTML Form</h1>
+<div><!--Division. for dividing things into sections. no visual effects--></div>
+<span>I'm a span tag. behaves like a paragraph tag but not quite. to add a hook to css or js to html</span>
+<br>
+<hr> <!--horizontal rule which is a line that seperates content-->
+<img  src="ninja.jpeg" alt="picture of ninja standing">
+<!--src is source and alt is a description of img in case it doesnt load -->
+
+<!--anchor tags are used to create links to other pages and websites. href = hyperlink reference -->
+<a href="www.google.com">Google</a>
+<a href="about.html">about us</a>
+<!--anchor tags automatically have unline ontext. can set it to none if on css-->
+
+<blockquote cite="the-net-ninja.com">
+    this is for quoting things from other sources. cite refers to original source
+</blockquote>
+
+<p style="color: blue;">style me</p>
+<!--can style p using style attribute -->
+
+<p class="error">I am an error</p>
+<div class="error">I am also an error</div> 
+<p class="sucess">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut minus qui ipsum rerum modi officia omnis aliquid quam. Quod blanditiis at dolorem assumenda minus quas ducimus quisquam quos accusantium culpa.</p>
+<p class="sucess feedback">Mulitple classes in one quotation mark</p>
+<div id="content">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam quisquam numquam sint maxime dolores accusantium nobis, odio eius minima, porro mollitia excepturi, consequuntur quam. Est quas exercitationem nesciunt nobis quidem.</p>
+</div>
+
+<!-- comment -->
+
+<form action="">
+    <label for="username">enter username:</label>
+    <!--link label to the input field -->
+    <input type="text" id="username" name="username" placeholder="enter username" required>
+    <!--id can be used as a hook for css and js -->
+    <br><br>
+    <label for"email">enter email:</label>
+    <input type="email" id="email" name="email" placeholder="enter email" required>
+    <br><br>
+    <label for="password">enter password</label>
+    <input for"password" type="password" name="password" placeholder="enter password" required>
+    <!--name attributes group inputs together especially radio and buttons and provide hooks for backend and php-->
+    <!--required is used so users must type it in. required attributes is set to true as default.-->
+</form>
+
+<p>Select your age:</p>
+
+<input type="radio" name="age" value="0-25" id="option-1"> 
+<label for="option-1"> 0-25</label>
+<input type="radio" name="age" value="26-50" id="option-2"> 
+<label for="option-2"> 26-50</label>
+<input type="radio" name="age" value="51+" id="option-3"> 
+<label for="option-3"> 51+</label>
+<!--values matter and it is for people to get value using php-->
+
+<br><br>
+
+<!--drop down options-->
+<label for="question">Security questions:</label>
+<select name="question" id="name">
+<option value="q1">What is your favourite colour?</option>
+<option value="q2">What is your first car?</option>
+<option value="q3">What is your mother's maiden name?</option>
+</select>
+
+<br><br>
+
+<label for="answers">Security answers</label>
+<input type="text" id="answer" name="answer">
+
+<br><br>
+
+<!--for comments or bio where small input field is not enough-->
+<label id="bio">Your bio:</label><br>
+<textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you..."></textarea>
+<!--placeholder attribute gives default wiriting in text field-->
+
+<br><br>
+
+<!--sumbit button when pressed will send all data typed in to the link in action attribue of form to backend-->
+<input type="submit" value="submit the form">
+
+</body>
+</html>
