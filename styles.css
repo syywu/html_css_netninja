@@ -1,3 +1,15 @@
+header{
+    background-color: #f63232;
+    padding: 20px;
+    text-align: center;
+    /* fixed will ensure the banner to be fixed no matter where you scroll */
+    position: fixed;
+    width: 100%;
+    /* bring things forward. anything more than 0 will bring it forward*/
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
 .banner{
     position: relative;
 }
@@ -9,6 +21,7 @@
     background-color: #FEB614;
     color: white;
     padding: 30px;
+    /* parent position must not be static. use absolute to get child inside parent */
     position: absolute;
     /* from the left or top. not to the left or top */
     left: 0px;
