@@ -46,6 +46,9 @@ header h1{
 nav{
     background-color: #f4f4f4;
     padding: 20px;
+    position: sticky;
+    top: 148px;
+    /* when it reaches to 148px from the top then it sticks to page */
 }
 nav ul{
     white-space: nowrap;
