@@ -53,8 +53,8 @@ nav{
     background-color: #f4f4f4;
     padding: 20px;
     position: sticky;
-    top: 106px;
-    /* when it reaches to 106px from the top then it sticks to page */
+    top: 100px;
+    /* when it reaches to 100px from the top then it sticks to page */
 }
 nav ul{
     white-space: nowrap;
@@ -96,4 +96,8 @@ article p{
 .images{
     text-align: center;
     margin: 80px 0;
+}
+.images li{
+    display: inline-block;
+    width: 40px;
 }
