@@ -6,5 +6,11 @@
     /* max width of the device */
 }
 .banner .welcome{
+    background-color: #FEB614;
+    color: white;
+    padding: 30px;
     position: absolute;
+    /* from the left or top. not to the left or top */
+    left: 0px;
+    top: 30%;
 }
