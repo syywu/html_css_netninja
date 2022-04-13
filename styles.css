@@ -53,8 +53,8 @@ nav{
     background-color: #f4f4f4;
     padding: 20px;
     position: sticky;
-    top: 148px;
-    /* when it reaches to 148px from the top then it sticks to page */
+    top: 106px;
+    /* when it reaches to 106px from the top then it sticks to page */
 }
 nav ul{
     white-space: nowrap;
@@ -74,4 +74,10 @@ nav li a{
 }
 nav li a.join{
     color: #f63232;
+}
+main{
+    max-width: 100%;
+    /* max width to 100px so it doesnt go off the page */
+    width: 1200px;
+    /* if viewpoint of that device is 800px then it'll reach max width of 800 not 1200px */
 }
