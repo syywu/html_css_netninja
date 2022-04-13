@@ -80,4 +80,8 @@ main{
     /* max width to 100px so it doesnt go off the page */
     width: 1200px;
     /* if viewpoint of that device is 800px then it'll reach max width of 800 not 1200px */
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    /* get the padding into the total width. 100% total- dont add padding on top */
 }
