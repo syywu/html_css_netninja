@@ -50,6 +50,9 @@ nav{
 nav ul{
     white-space: nowrap;
     /* li will be in one line only */
+    max-width: 1200px;
+    margin: 0 auto;
+    /* auto left and right to centralise things automatically */
 }
 nav li{
     width: 25%;
