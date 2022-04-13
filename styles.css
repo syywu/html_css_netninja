@@ -94,8 +94,8 @@ article p{
     color: #4b4b4b;
 }
 .images{
-    text-align: center;
-    margin: 80px 0;
+    text-align: left;
+    margin: 50px 0px;
     white-space: nowrap;
     /* this makes images side by side */
 }
@@ -104,6 +104,7 @@ article p{
     list-style-type: none;
     width: 40%;
     margin: 20px 5%;
+    position: relative;
 }
 .images li img{
     max-width: 100%;
