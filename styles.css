@@ -35,11 +35,11 @@ header h1{
 .banner .welcome{
     background-color: #FEB614;
     color: white;
-    padding: 30px;
+    padding: 10px;
     /* parent position must not be static. use absolute to get child inside parent */
     position: absolute;
     /* from the left or top. not to the left or top */
-    left: 0px;
+    left: 2px;
     top: 10%;
 }
 .banner h2{
