@@ -14,3 +14,10 @@
     left: 0px;
     top: 30%;
 }
+.banner h2{
+    font-size: 74px;
+}
+.banner h2 span{
+    font-size: 1.3em;
+    /* em takes the size of the parent which is 74px and times it by 1.3 */
+}
