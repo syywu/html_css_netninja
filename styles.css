@@ -96,8 +96,14 @@ article p{
 .images{
     text-align: center;
     margin: 80px 0;
+    white-space: nowrap;
 }
 .images li{
     display: inline-block;
-    width: 40px;
+    width: 40%;
+    margin: 20px 5%;
+}
+.images li img{
+    max-width: 100%;
+    /* 100% of parent's container which is 40px */
 }
