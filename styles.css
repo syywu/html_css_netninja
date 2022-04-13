@@ -34,7 +34,7 @@ header h1{
     position: absolute;
     /* from the left or top. not to the left or top */
     left: 0px;
-    top: 30%;
+    top: 10%;
 }
 .banner h2{
     font-size: 74px;
@@ -46,6 +46,10 @@ header h1{
 nav{
     background-color: #f4f4f4;
     padding: 20px;
+}
+nav ul{
+    white-space: nowrap;
+    /* li will be in one line only */
 }
 nav li{
     width: 25%;
