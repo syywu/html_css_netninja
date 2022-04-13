@@ -10,6 +10,15 @@ header{
     top: 0;
     left: 0;
 }
+header h1{
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px; 
+    /* 1st val is top and bottom. 2nd left and right */
+    display: inline-block;
+    /* inline but also has the ability to use padding as block */
+    border-radius: 36px;
+}
 .banner{
     position: relative;
 }
