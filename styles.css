@@ -94,12 +94,14 @@ article p{
     color: #4b4b4b;
 }
 .images{
-    white-space: nowrap;
     text-align: center;
     margin: 80px 0;
+    white-space: nowrap;
+    /* this makes images side by side */
 }
 .images li{
     display: inline-block;
+    list-style-type: none;
     width: 40%;
     margin: 20px 5%;
 }
