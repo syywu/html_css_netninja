@@ -58,5 +58,8 @@ nav li{
     width: 25%;
     display: inline-block;
     font-size: 25px;
-
+}
+nav li a{
+    text-decoration: none;
+    color: #4b4b4b;
 }
