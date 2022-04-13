@@ -63,3 +63,6 @@ nav li a{
     text-decoration: none;
     color: #4b4b4b;
 }
+nav li a.join{
+    color: #f63232;
+}
