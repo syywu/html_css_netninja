@@ -1,3 +1,10 @@
 .banner{
     position: relative;
 }
+.banner img{
+    max-width: 100%;
+    /* max width of the device */
+}
+.banner .welcome{
+    position: absolute;
+}
