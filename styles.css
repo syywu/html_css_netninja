@@ -202,5 +202,12 @@ content: '...';
         .banner .welcome span{
             font-size: 1em;
         }
+        /* make images 1 per row */
+        .images li{
+            display: block;
+            width: 100%;
+            margin: 20px auto;
+            z-index: -1;
+        }
     }
 /* responsive images- only load smaller images for mobile devices */
