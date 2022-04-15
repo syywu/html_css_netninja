@@ -170,7 +170,25 @@ p::selection{
 p::after{
 content: '...';
 }
+/* responsive styles */
 /* media quries- how to style an element at particular viewport dimensions */
-/* viewport meta tag- what width the viewport should be */
-/* should be in head */
+@media screen and (max-width:1400px){
+    .banner .welcome h2{
+        font-size: 60px;
+    }
+}
+    nav li{
+        font-size: 18px;
+    }
+/* these styles will be applied if it's below 1400px */
+@media screen and (max-width:960px){
+    .banner .welcome h2{
+        font-size: 40px;
+    }
+}
+    @media screen and (max-width:700px){
+        .banner .welcome{
+            position: relative;
+        }
+    }
 /* responsive images- only load smaller images for mobile devices */
