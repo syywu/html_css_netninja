@@ -222,5 +222,8 @@ content: '...';
         header{
             position: relative;
         }
+        nav{
+            top: 0;
+        }
     }
 /* responsive images- only load smaller images for mobile devices */
