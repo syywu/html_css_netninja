@@ -133,3 +133,7 @@ footer{
     text-align: center;
 }
 /* pseudo-classes: styles elements when they're in a particular state i.e. hover, first child, focus */
+
+nav li a:hover{
+    text-decoration: underline;
+}
