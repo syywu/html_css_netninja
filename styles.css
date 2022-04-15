@@ -219,5 +219,8 @@ content: '...';
             margin: 12px 0;
             position: relative;
         }
+        header{
+            position: relative;
+        }
     }
 /* responsive images- only load smaller images for mobile devices */
