@@ -154,3 +154,8 @@ nav li:first-child{
     border: 2px solid white;
 }
 /* psuedo elements- to inject content */
+
+article p::first-line{
+    font-weight: bold;
+    font-size: 1.2em;
+}
