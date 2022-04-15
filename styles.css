@@ -137,3 +137,8 @@ footer{
 nav li a:hover{
     text-decoration: underline;
 }
+
+.images li:hover{
+    position: relative;
+    top: -4px;
+}
