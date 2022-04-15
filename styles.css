@@ -152,7 +152,7 @@ form input:valid{
 nav li:first-child{
     border: 2px solid white;
 }
-/* psuedo elements- to inject content */
+/* psuedo elements */
 
 article p::first-line{
     font-weight: bold;
@@ -162,7 +162,11 @@ section.join p::first-letter{
     font-size: 1.5em;
 }
 /* turns red when highlighted */
-section.join p::selection{
+p::selection{
     background-color: #f63232;
     color: white;
+}
+/* to inject some content */
+p::after{
+content: '...';
 }
