@@ -104,7 +104,6 @@ article p{
     list-style-type: none;
     width: 40%;
     margin: 20px 5%;
-    position: relative;
 }
 .images li img{
     max-width: 100%;
@@ -161,4 +160,9 @@ article p::first-line{
 }
 section.join p::first-letter{
     font-size: 1.5em;
+}
+/* turns red when highlighted */
+section.join p::selection{
+    background-color: #f63232;
+    color: white;
 }
