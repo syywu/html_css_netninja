@@ -190,6 +190,7 @@ content: '...';
         .banner .welcome{
             position: relative;
             text-align: center;
+            padding: 10px;
         }
         .banner .welcome br{
             display: none;
@@ -197,6 +198,9 @@ content: '...';
         }
         .banner .welcome h2{
             font-size: 25px;
+        }
+        .banner .welcome span{
+            font-size: 1em;
         }
     }
 /* responsive images- only load smaller images for mobile devices */
